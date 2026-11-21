@@ -4,8 +4,8 @@
  *
  * Student Name: SADDIMBAH PHAIZARD BRACKSTONE
  * Registration Number: ENB211-0060/2025
- * Variant ID: V07
- * Scenario: A LEARNER CALCULATES THE DISTANCE TRAVELLED OVER A FIXED DURATION
+ * Variant ID: V21
+ * Scenario: Study hours 
  *
  * Instructions:
  *   - Record your assigned variant details above.
@@ -19,20 +19,13 @@
 
 int main(void)
 {
-     int averageSpeed = 192;
-    float timeHours = 1.5f;
-    float distanceTravelled;
-    char category = 'A';
+     int studyHours = 4;
+    int days = 5;
+    int totalStudyHours;
 
-    distanceTravelled = averageSpeed * timeHours;
+    totalStudyHours = studyHours * days;
 
-    printf("Average Speed: %d km/h\n", averageSpeed);
-    printf("Time: %.1f hours\n", timeHours);
-    printf("Category: %c\n", category);
-    printf("Distance Travelled: %.1f km\n", distanceTravelled);
-
-    printf("The vehicle travelled %.1f km in %.1f hours.\n",
-           distanceTravelled, timeHours);
+    printf("Total study hours: %d\n", totalStudyHours);
 
     return 0;
 }
